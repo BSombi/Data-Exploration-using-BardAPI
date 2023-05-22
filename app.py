@@ -7,7 +7,7 @@ import streamlit as st
 st.markdown(" # <span style='color:blue'>Wellcome!</span> This App will help you Explore and understand your data", unsafe_allow_html=True)
 st.info("Upload your CSV data and proceed to asking the questions")
 
-os.environ['_BARD_API_KEY']="WAgfaacFovM6livq4Boqxmy0okx470y79XcqGXmj7DlYfGJencks2EVlQZqGTkDwE79OuA."
+os.environ['_BARD_API_KEY']="Your Key"
 
 file = st.file_uploader("Upload your CSV file", type=["csv"])
 if file: 
